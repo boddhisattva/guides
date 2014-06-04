@@ -151,6 +151,8 @@ Ruby
 * Prefer `select` over `find_all`.
 * Prefer single quotes for strings.
 * Prefer `&&` and `||` over `and` and `or`.
+* Prefer `&:method_name` to `{ |item| item.method_name }` for simple method
+  calls.
 * Use `_` for unused block parameters.
 * Use `%{}` for single-line strings needing interpolation and double-quotes.
 * Use `{...}` for single-line blocks. Use `do..end` for multi-line blocks.
