@@ -129,7 +129,7 @@ CoffeeScript
   private variables and functions.
 * Prefer `==` and `!=` to `is` and `isnt`
 * Prefer `||` and `&&` to `or` and `and`
-* Prefer `@` to `this` for scoping.
+* Prefer `@` over `this` for referencing instance properties.
 * Prefer double quotes.
 
 Ruby
